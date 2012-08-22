@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7217F6B415E48157000C3A87 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7217F6B315E48157000C3A87 /* Accounts.framework */; };
+		7217F6B615E48248000C3A87 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7217F6B515E48248000C3A87 /* Twitter.framework */; };
+		7223877115E45CCE00E7E775 /* NSString+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7223877015E45CCE00E7E775 /* NSString+Utilities.m */; };
+		7223877515E45DA000E7E775 /* ImgurImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7223877415E45DA000E7E775 /* ImgurImageView.m */; };
 		7225A44E15E1C25C00425A16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7225A44D15E1C25C00425A16 /* UIKit.framework */; };
 		7225A45015E1C25C00425A16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7225A44F15E1C25C00425A16 /* Foundation.framework */; };
 		7225A45215E1C25C00425A16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7225A45115E1C25C00425A16 /* CoreGraphics.framework */; };
@@ -15,9 +19,28 @@
 		7225A45E15E1C25C00425A16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7225A45D15E1C25C00425A16 /* AppDelegate.m */; };
 		7225A46115E1C25C00425A16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7225A46015E1C25C00425A16 /* ViewController.m */; };
 		7225A46415E1C25C00425A16 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7225A46215E1C25C00425A16 /* ViewController.xib */; };
+		7225A49215E1D55200425A16 /* Pods.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7225A49115E1D55200425A16 /* Pods.xcconfig */; };
+		7225A49C15E1D65700425A16 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7225A49B15E1D65200425A16 /* libPods.a */; };
+		72BD7AD815E471A400608E18 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BD7AD715E471A400608E18 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7225A49A15E1D65200425A16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7225A49315E1D65100425A16 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 615FF69C65C34FCBA1DDF2E5;
+			remoteInfo = Pods;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		7217F6B315E48157000C3A87 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		7217F6B515E48248000C3A87 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		7223876F15E45CCE00E7E775 /* NSString+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utilities.h"; sourceTree = "<group>"; };
+		7223877015E45CCE00E7E775 /* NSString+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utilities.m"; sourceTree = "<group>"; };
+		7223877315E45DA000E7E775 /* ImgurImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgurImageView.h; sourceTree = "<group>"; };
+		7223877415E45DA000E7E775 /* ImgurImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgurImageView.m; sourceTree = "<group>"; };
 		7225A44915E1C25C00425A16 /* Imgur Roulette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Imgur Roulette.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7225A44D15E1C25C00425A16 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7225A44F15E1C25C00425A16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -31,6 +54,9 @@
 		7225A45F15E1C25C00425A16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7225A46015E1C25C00425A16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7225A46315E1C25C00425A16 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		7225A49115E1D55200425A16 /* Pods.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		7225A49315E1D65100425A16 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		72BD7AD715E471A400608E18 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +64,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7217F6B615E48248000C3A87 /* Twitter.framework in Frameworks */,
+				7217F6B415E48157000C3A87 /* Accounts.framework in Frameworks */,
+				72BD7AD815E471A400608E18 /* QuartzCore.framework in Frameworks */,
+				7225A49C15E1D65700425A16 /* libPods.a in Frameworks */,
 				7225A44E15E1C25C00425A16 /* UIKit.framework in Frameworks */,
 				7225A45015E1C25C00425A16 /* Foundation.framework in Frameworks */,
 				7225A45215E1C25C00425A16 /* CoreGraphics.framework in Frameworks */,
@@ -47,6 +77,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7223876E15E45CB700E7E775 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				7223876F15E45CCE00E7E775 /* NSString+Utilities.h */,
+				7223877015E45CCE00E7E775 /* NSString+Utilities.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		7223877215E45D8F00E7E775 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7223877315E45DA000E7E775 /* ImgurImageView.h */,
+				7223877415E45DA000E7E775 /* ImgurImageView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		7225A43E15E1C25B00425A16 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +115,10 @@
 		7225A44C15E1C25C00425A16 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7217F6B515E48248000C3A87 /* Twitter.framework */,
+				7217F6B315E48157000C3A87 /* Accounts.framework */,
+				72BD7AD715E471A400608E18 /* QuartzCore.framework */,
+				7225A49315E1D65100425A16 /* Pods.xcodeproj */,
 				7225A44D15E1C25C00425A16 /* UIKit.framework */,
 				7225A44F15E1C25C00425A16 /* Foundation.framework */,
 				7225A45115E1C25C00425A16 /* CoreGraphics.framework */,
@@ -77,6 +129,8 @@
 		7225A45315E1C25C00425A16 /* Imgur Roulette */ = {
 			isa = PBXGroup;
 			children = (
+				7223877215E45D8F00E7E775 /* Views */,
+				7223876E15E45CB700E7E775 /* Categories */,
 				7225A45C15E1C25C00425A16 /* AppDelegate.h */,
 				7225A45D15E1C25C00425A16 /* AppDelegate.m */,
 				7225A45F15E1C25C00425A16 /* ViewController.h */,
@@ -90,12 +144,21 @@
 		7225A45415E1C25C00425A16 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7225A49115E1D55200425A16 /* Pods.xcconfig */,
 				7225A45515E1C25C00425A16 /* Imgur Roulette-Info.plist */,
 				7225A45615E1C25C00425A16 /* InfoPlist.strings */,
 				7225A45915E1C25C00425A16 /* main.m */,
 				7225A45B15E1C25C00425A16 /* Imgur Roulette-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7225A49415E1D65100425A16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7225A49B15E1D65200425A16 /* libPods.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,12 +200,28 @@
 			mainGroup = 7225A43E15E1C25B00425A16;
 			productRefGroup = 7225A44A15E1C25C00425A16 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7225A49415E1D65100425A16 /* Products */;
+					ProjectRef = 7225A49315E1D65100425A16 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7225A44815E1C25C00425A16 /* Imgur Roulette */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7225A49B15E1D65200425A16 /* libPods.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPods.a;
+			remoteRef = 7225A49A15E1D65200425A16 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		7225A44715E1C25C00425A16 /* Resources */ = {
@@ -151,6 +230,7 @@
 			files = (
 				7225A45815E1C25C00425A16 /* InfoPlist.strings in Resources */,
 				7225A46415E1C25C00425A16 /* ViewController.xib in Resources */,
+				7225A49215E1D55200425A16 /* Pods.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +244,8 @@
 				7225A45A15E1C25C00425A16 /* main.m in Sources */,
 				7225A45E15E1C25C00425A16 /* AppDelegate.m in Sources */,
 				7225A46115E1C25C00425A16 /* ViewController.m in Sources */,
+				7223877115E45CCE00E7E775 /* NSString+Utilities.m in Sources */,
+				7223877515E45DA000E7E775 /* ImgurImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +292,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -229,7 +311,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -238,6 +320,7 @@
 		};
 		7225A46815E1C25C00425A16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7225A49115E1D55200425A16 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Imgur Roulette/Imgur Roulette-Prefix.pch";
@@ -249,6 +332,7 @@
 		};
 		7225A46915E1C25C00425A16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7225A49115E1D55200425A16 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Imgur Roulette/Imgur Roulette-Prefix.pch";
@@ -277,6 +361,7 @@
 				7225A46915E1C25C00425A16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

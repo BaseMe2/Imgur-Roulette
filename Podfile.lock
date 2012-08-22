@@ -1,0 +1,14 @@
+PODS:
+  - Imgur (0.0.1):
+    - MKNetworkKit
+    - RSOAuthEngine
+  - MKNetworkKit (0.83):
+    - Reachability (~> 3.0)
+  - RSOAuthEngine (1.0.0):
+    - MKNetworkKit
+  - Reachability (3.0.0)
+  - SDWebImage (2.6)
+
+DEPENDENCIES:
+  - Imgur (from `https://github.com/brianmichel/Imgur.git', commit `7fa235f')
+  - SDWebImage
